@@ -4,6 +4,9 @@ metadata:
   labels:
     app: samplenginx
   name: samplenginx
+  annotations: {
+    description: "Sample Nginx deployment"
+  }
 spec:
   replicas: 2
   selector:
